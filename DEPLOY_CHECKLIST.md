@@ -19,8 +19,7 @@ npm run dev
 - [ ] All 4 demo accounts log in correctly
 - [ ] Dashboard loads with charts
 - [ ] Submit Report form works
-- [ ] Organisation → Cells shows 191 cells
-
+- [ ] Organisation → Cells shows 191 cells node
 ---
 
 ## STEP 2 — Update Real Data (30–60 minutes)
