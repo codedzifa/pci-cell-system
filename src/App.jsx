@@ -572,7 +572,8 @@ function Sidebar({currentUser,page,setPage,logout,unread,reportingOpen}){
   return<div style={{width:228,background:NAVY,display:"flex",flexDirection:"column",minHeight:"100vh",flexShrink:0,boxShadow:"4px 0 20px rgba(0,0,0,0.15)"}}>
     <div style={{padding:"22px 18px 16px",borderBottom:`1px solid rgba(255,255,255,0.08)`}}>
       <div style={{display:"flex",alignItems:"center",gap:10}}>
-        <div style={{width:38,height:38,borderRadius:10,background:GOLD,display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0,boxShadow:"0 2px 8px rgba(200,149,42,0.4)"}}><IC n="cross" s={20} c={WHITE}/></div>
+        <img src= "/favicon.svg" alt="Logo" style={{width:38,height:38,objectFit:"cover",borderRadius:10,flexShrink:0,boxShadow:"0 2px 8px rgba(200,149,42,0.4)"}}/>
+        {/* <div style={{width:38,height:38,borderRadius:10,background:GOLD,display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0,boxShadow:"0 2px 8px rgba(200,149,42,0.4)"}}><IC n="cross" s={20} c={WHITE}/></div> */}
         <div><div style={{fontFamily:"Montserrat,sans-serif",fontWeight:800,fontSize:13,color:WHITE,lineHeight:1.2}}>PEREZ DOME</div>
         <div style={{fontFamily:"Inter,sans-serif",fontSize:9,color:GOLD_LIGHT,letterSpacing:1.5}}>CELL REPORTING SYSTEM</div></div>
       </div>
