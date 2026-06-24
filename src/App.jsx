@@ -2,7 +2,7 @@ import { useState, useCallback, useMemo } from "react";
 import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell as PieCell, AreaChart, Area, Legend } from "recharts";
 
 /* ═══════════════════════════════════════════════════════════════════
-   PEREZ CHAPEL INTERNATIONAL — DOME DISTRICT
+   PEREZ CHAPEL INTERNATIONAL — PEREZ DOME
    Cell Leader Reporting System — COMPLETE PRODUCTION BUILD
    All 191 cells from official Google Form (June 2026)
    ═══════════════════════════════════════════════════════════════════ */
@@ -527,7 +527,7 @@ function LoginPage({onLogin}){
         <IC n="cross" s={32} c={WHITE}/>
       </div>
       <div style={{fontFamily:"Montserrat,sans-serif",fontWeight:800,fontSize:22,color:WHITE,letterSpacing:-0.5}}>PEREZ CHAPEL INTERNATIONAL</div>
-      <div style={{fontFamily:"Montserrat,sans-serif",fontWeight:700,fontSize:11,color:GOLD_LIGHT,letterSpacing:4,marginTop:3}}>DOME DISTRICT</div>
+      <div style={{fontFamily:"Montserrat,sans-serif",fontWeight:700,fontSize:11,color:GOLD_LIGHT,letterSpacing:4,marginTop:3}}>PEREZ DOME</div>
       <div style={{fontFamily:"Inter,sans-serif",fontSize:12,color:"rgba(255,255,255,0.5)",marginTop:6}}>LFU Cell Leader Reporting System · {CELLS.length} Cells · {REGIONS.length} Regions</div>
     </div>
     <div style={{width:"100%",maxWidth:440}}>
